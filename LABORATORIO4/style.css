@@ -1,0 +1,184 @@
+/* Estilos padrão */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+div {
+    height: 100px;
+    width: 100%;
+}
+
+/*questao 1*/
+.box {
+	height: 100px;
+	width: 100%;
+	background-color: black;
+}
+
+@media (min-width: 320px) {
+    .box {
+        background-color: black;
+    }
+}
+
+@media (min-width: 480px) {
+    .box {
+        background-color: lightblue;
+    }
+}
+
+@media (min-width: 600px) {
+    .box {
+        background-color: lightgreen;
+    }
+}
+
+div {
+    height: 100px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .box {
+        background-color: lightyellow;
+    }
+}
+
+@media (min-width: 800px) {
+    .box {
+        background-color: brown;
+    }
+}
+
+@media (min-width: 1024px) {
+    .box {
+        background-color: darkblue;
+    }
+}
+
+@media (min-width: 1280px) {
+    .box {
+        background-color: darkgreen;
+    }
+}
+
+@media (min-width: 1440px) {
+    .box {
+        background-color: darkred;
+    }
+}
+
+/*questao 2*/
+
+.landscape-only {
+    display: none;
+}
+
+@media (orientation: landscape) {
+    .landscape-only {
+        display: block;
+    }
+}
+
+/*questao 3 e 4*/
+
+.divisao {
+    display: none;
+}
+
+.container {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*Regra para dispositivos móveis */
+
+@media (max-width: 767px) {
+
+    .divisao {
+        display: block;
+        background-color: green;
+    }
+    .container {
+        display: block;
+    }
+    .flag {
+        display: none;
+    }
+}
+
+/* Regra para desktops */
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .divisao {
+        display: block;
+        background: linear-gradient(green 50%, blue 50%);
+    }
+    .container {
+        display: flex;
+    }
+    .flag {
+        display: none;
+    }
+}
+
+/* Regra para TVs */
+
+@media (min-width: 1280px) {
+
+    .divisao {
+        display: block;
+        background: linear-gradient(green 20%, blue 20% 40%, #b3b3ff 40% 60%, green 60% 80%, blue 80%);
+    }
+    .container {
+        display: flex;
+    }
+}
