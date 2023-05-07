@@ -1,0 +1,338 @@
+#div1 .div1-1,
+#div1 .div1-2,
+#div1 .div1-3,
+#div1 .div1-4,
+#div1 .div1-5 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+
+#div1 .div1-4,
+#div1 .div1-5 {
+    display: none;
+}
+
+/*QUESTAO 01*/
+#div1 {
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    align-items: end; /*deixa as divs na direita*/
+    flex-direction: column; /*deixa as divs em coluna*/
+    
+} 
+
+
+
+/*QUESTAO 02*/
+#div1 {
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    align-items:start; /*deixa as divs na esquerda*/
+    flex-direction: row; /*deixa as divs em linha*/
+    
+} 
+
+
+
+/*QUESTAO 03*/
+#div1 {
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    flex-direction: row-reverse; /*deixa as divs em linha comecando da direita*/
+    
+} 
+
+
+
+/*QUESTAO 04*/
+#div1 {
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    justify-content: center; /*deixa as divs juntas e centralizadas*/ 
+    flex-direction: row;    /*deixa as divs em linha*/
+    
+} 
+
+
+#div1 .div1-1,
+#div1 .div1-2,
+#div1 .div1-3,
+#div1 .div1-4,
+#div1 .div1-5 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    
+}
+
+/*QUESTAO 05*/
+#div1 {
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap; /*quebra de linha*/
+    justify-content: start; /*as divs começam da esquerda*/
+    
+} 
+
+/*QUESTAO 06*/
+#div1 {
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap; /*quebra de linha*/
+    flex-direction: row-reverse; /* deixa as divs na ordem inversa*/
+    justify-content: end;   /* comeca as divs da direita*/
+   
+}
+
+
+#div1 .div1-1,
+#div1 .div1-2,
+#div1 .div1-3,
+#div1 .div1-4,
+#div1 .div1-5 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    
+}
+
+#div1 .div1-4,
+#div1 .div1-5 {
+    display: none;
+}
+
+/*QUESTAO 07*/
+#div1 {
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    flex-direction: row; /* deixa as divs na ordem*/
+    justify-content: space-around; /* deixa as divs espacadas igualmente*/
+}
+
+
+/*QUESTAO 08*/
+#div1 {
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    justify-content: space-between; /* deixa as divs espaçadas*/
+}
+
+
+/*QUESTAO 09*/
+#div1 {
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    justify-content: space-between; /* deixa as divs espaçadas*/
+}
+
+
+/*QUESTAO 10*/
+#div1 {
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    justify-content: center;    /*deixa as divs centralizadas na div pai*/
+    align-items: center;
+}
+
+/*QUESTAO 11*/
+body{
+    display: flex;
+    justify-content: center;    /*deixa a div pai centralizadas no body*/
+    align-items: center;
+}
+#div1 {
+    border: 1px solid black;
+    height: 600px;
+    width: 600px;       /*ajusta o tamanho da div pai*/
+    display: flex;
+    flex-wrap: nowrap;
+}
+#div1 .div1-1{
+    display: flex;
+    height: 33.33%;
+    width: 33.33%
+}
+
+#div1 .div1-2{
+    display: flex;
+    height: 20%;
+    width: 33.33%;
+}
+
+#div1 .div1-3{
+    display: flex;
+    height: 50%;
+    width: 33.33%;
+}
+
+/*QUESTAO 12*/
+
+#div1 .div1-1{
+    height: 100%;
+    
+}
+
+#div1 .div1-2{
+    height: 100%;
+    
+}
+
+#div1 .div1-3{
+    height: 100%;
+    
+}
+
+
+
+/*QUESTAO 13*/
+#div1 .div1-1,
+#div1 .div1-2,
+#div1 .div1-3,
+#div1 .div1-4,
+#div1 .div1-5 {
+    
+    width: 250px;
+    height: 250px;
+    display: flex;
+    
+}
+
+
+#div1 .div1-2 {
+    background-color: red; /*muda a cor da div1-2*/
+}
+#div1 .div1-5 {
+    display: none;
+}
+
+#div1 {
+    display: flex;
+    width: 100%;
+    align-items:start; /*deixa as divs na esquerda*/
+    flex-direction: row; /*deixa as divs em linha*/
+    justify-content: start;
+} 
+
+/*QUESTAO 14*/
+
+#div1 .div1-2 {
+    background-color: blue; /*muda a cor da div1-2*/
+    font-size: 50px;
+}
+
+#div1 {
+    flex:1;
+} 
+
+/*QUESTAO 15*/
+#div1 {
+    display: flex;
+
+}
+#div1 .div1-2 {
+    order: 0;
+    background-color: red; /*muda a cor da div1-2*/
+    font-size: 18px;
+}
+
+#div1 .div1-1 {
+    order: 1;
+}
+#div1 .div1-3 {
+    order: 2;
+}
+#div1 .div1-4 {
+    order: 3;
+}
+
+/*QUESTAO 16*/
+
+#div1 .div1-2 {
+    order: 2;
+}
+#div1 .div1-1 {
+    order: 1;
+}
+#div1 .div1-3 {
+    order: 0;
+}
+#div1 .div1-4 {
+    order: 3;
+}
+
+/*QUESTAO 17*/
+
+#div1 .div1-1 {
+    order: 0;
+}
+#div1 .div1-2 {
+    order: 1;
+    background-color: red;
+    align-self:flex-start
+
+}
+#div1 .div1-3 {
+    order: 2;
+}
+#div1 .div1-4 {
+    order: 3;
+}
+
+#div1 {
+    align-items: center;
+}
+
+/*QUESTAO 18*/
+
+#div1 .div1-2 {
+    height: 100%;
+
+}
+
+
+/*QUESTAO 19*/
+
+#div1 .div1-4 {
+    display: none;
+    
+}
+
+#div1 .div1-2 {
+    height: 250px;
+    width: 600px;
+    align-self: center;
+}
+
+/*QUESTAO 20*/
+#div1{
+    justify-content: center;
+}
+
+#div1 .div1-2 {
+    width: 250px;
+    background-color: blue;
+}
+#div1 .div1-1,#div1 .div1-3 {
+    width: 600px;
+}
