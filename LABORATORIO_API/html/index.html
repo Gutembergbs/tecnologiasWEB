@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consulta de API</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <h1>Consulta de API</h1>
+    <div class="container">
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Sobrenome</th>
+                    <th>Email</th>
+                    <th>Ícone</th>
+                </tr>
+            </thead>
+            <tbody id="userData"></tbody>
+        </table>
+        <div>
+            <h2>Adicionar Usuário</h2>
+            <form id="addUserForm">
+                <div class="label-input">
+                    <label for="firstName">Nome:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="label-input">
+                    <label for="lastName">Sobrenome:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="label-input">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">Adicionar Usuário</button>
+            </form>
+            <h2>Atualizar Usuário</h2>
+            <form id="updateUserForm">
+                <div class="label-input">
+                    <label for="userId">ID:</label>
+                    <input type="number" id="userId" name="userId" required>
+                </div>
+                <div class="label-input">
+                    <label for="newFirstName">Novo Nome:</label>
+                    <input type="text" id="newFirstName" name="newFirstName" required>
+                </div>
+                <div class="label-input">
+                    <label for="newLastName">Novo Sobrenome:</label>
+                    <input type="text" id="newLastName" name="newLastName" required>
+                </div>
+                <div class="label-input">
+                    <label for="newEmail">Novo Email:</label>
+                    <input type="email" id="newEmail" name="newEmail" required>
+                </div>
+                <button type="submit">Atualizar Usuário</button>
+            </form>
+            <h2>Deletar Usuário</h2>
+            <form id="deleteUserForm">
+                <div class="label-input">
+                    <label for="deleteUserId">ID do Usuário a Deletar:</label>
+                    <input type="number" id="deleteUserId" name="deleteUserId" required>
+                </div>
+                <button type="submit">Deletar Usuário</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
 
