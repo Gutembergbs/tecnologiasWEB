@@ -1,1 +1,75 @@
-
+/* Estilos para o contêiner principal */
+.container {
+    display: flex;
+  }
+  
+ /* Estilos para a tabela */
+#userTable {
+    flex-basis: 70%;
+    margin-right: 20px;
+  }
+  
+  #userTable table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #userTable th,
+  #userTable td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #userTable th {
+    background-color: #f2f2f2;
+  }
+  
+  #userTable td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #userTable tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  #userTable img {
+    display: block;
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
+  
+  /* Estilos para os formulários */
+  form {
+    flex-basis: 30%;
+  }
+  
+  .label-input {
+    margin-bottom: 10px;
+  }
+  
+  .label-input label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .label-input input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
